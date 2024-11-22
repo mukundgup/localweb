@@ -1,0 +1,123 @@
+/* Container Styling */
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  /* Space between cards */
+  padding: 90px;
+  background-color: #add8e6;
+  /* Light blue background */
+  height: 100%;
+  /* Full-screen height */
+  margin: 0%;
+}
+
+/* Individual Card Styling */
+.pricing-card {
+  background: #ffffff;
+  /* White background for each card */
+  border-radius: 1px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  /* Light shadow */
+  text-align: center;
+  padding: 30px;
+  width: 300px;
+  /* Width for each card */
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+/* Icon Styling */
+.card-icon {
+  width: 100%;
+  /* Adjust icon size */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Title Styling */
+.card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color:rgba(212, 96, 96, 0.473);
+  text-decoration-line:underline;
+  text-decoration-color: #3c77b6;
+  font-weight: bold;
+  font-style:italic;
+  
+
+
+ 
+ 
+}
+
+/* Details (List) Styling */
+.card-details {
+  list-style: none;
+  padding: 0;
+  text-decoration-line:overline;
+  text-decoration-color: #0056b3;
+  margin: 20px 0;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  
+}
+
+.card-details li {
+  margin-bottom: 10px;
+  color: #0056b3;
+}
+
+/* Price Styling */
+.card-price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+  /* Blue text for price */
+  margin: 20px 0;
+}
+
+/* Button Styling */
+.card-btn {
+  background-color: #007bff;
+  /* Blue button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-btn:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
+
+.cdbutton {
+  border-color: #007bff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.cdbutton1 {
+  border-color: #007bff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
